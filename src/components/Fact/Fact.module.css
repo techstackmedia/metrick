@@ -71,9 +71,14 @@
 .growContainer::after {
   content: '';
   position: absolute;
-  background-color: rgb(32, 87, 169);
-  width: 200px;
-  height: 300px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(32, 87, 169, 0.784),
+    rgba(19, 56, 107, 0.554),
+    rgba(19, 52, 101, 0.2)
+  );
+  width: 270px;
+  height: 320px;
   filter: blur(10px);
   left: 120px;
   top: 50px;

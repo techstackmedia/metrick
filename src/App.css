@@ -3,17 +3,11 @@
 }
 
 .Home {
-  background-image: url('./images/homeBi.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(27, 7, 67);
 }
 
 .About {
-  /* background-image: url('./images/home.jpg'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background-color: rgb(35, 2, 60);
+  background-color: rgb(27, 7, 67);
 }
 
 .Github {

@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   position: relative;
   background-color: rgba(248, 238, 238, 0.1);
 }
@@ -17,11 +17,16 @@
   content: '';
   right: 100px;
   top: 100px;
-  width: 250px;
-  height: 350px;
-  background-color: rgb(146, 53, 146);
-  filter: blur(20px);
+  width: 320px;
+  height: 400px;
+  filter: blur(10px);
   z-index: -1;
+  background-image: linear-gradient(
+    180deg,
+    rgba(173, 21, 173, 0.78),
+    rgba(107, 30, 107, 0.553),
+    rgba(77, 18, 77, 0.155)
+  );
 }
 
 .intro {
@@ -52,6 +57,23 @@
 .jumbotron {
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.jumbotron::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: rgba(31, 86, 204, 0.42);
+  background-image: linear-gradient(
+    180deg,
+    rgba(16, 70, 187, 0.42),
+    rgba(7, 23, 58, 0.42),
+    rgba(0, 1, 2, 0.918)
+  );
 }
 
 .tool {

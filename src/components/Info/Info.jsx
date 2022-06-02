@@ -13,7 +13,7 @@ const Info = () => {
         <div>
           <p className={info.note}>Something Awesome is Coming Soon</p>
         </div>
-        <div>
+        <div className={info.notePara}>
           <p>
             Your all-in-one affiliate marketing tracking software{' '}
             <strong>track</strong>, <strong>automate</strong> and{' '}

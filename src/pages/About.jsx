@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer';
 const About = () => {
   return (
     <div className="About">
-      <Navbar />
+      <Navbar color="rgba(242, 7, 250)" />
       <Hero />
       <Fact />
       <Questions />

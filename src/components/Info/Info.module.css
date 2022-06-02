@@ -3,10 +3,29 @@
   margin: auto;
 }
 
-.info p {
+.notePara {
   margin: 20px;
   text-align: center;
   line-height: 1.9;
+  position: relative;
+  z-index: 1;
+}
+
+.notePara::after {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(23, 79, 170, 0.76),
+    rgba(35, 70, 151, 0.327),
+    rgba(12, 36, 73, 0.119)
+  );
+  right: -150px;
+  top: -20px;
+  z-index: -1;
 }
 
 .note {
@@ -14,6 +33,25 @@
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.note::after {
+  position: absolute;
+  content: '';
+  left: -80px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(168, 33, 168, 0.738),
+    rgba(138, 35, 138, 0.251),
+    rgba(59, 12, 59, 0.018)
+  );
+  z-index: -1;
 }
 
 .date {
@@ -68,6 +106,24 @@
 .submit {
   display: flex;
   position: relative;
+  z-index: 1;
+  margin-bottom: 150px
+}
+
+.submit::after {
+  position: absolute;
+  content: '';
+  width: 120px;
+  height: 120px;
+  border-radius: 70%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(128, 86, 14, 0.76),
+    rgba(84, 61, 15, 0.447),
+    rgba(73, 52, 12, 0.188)
+  );
+  z-index: -1;
+  top: 100px;
 }
 
 .submit input[type='email'] {

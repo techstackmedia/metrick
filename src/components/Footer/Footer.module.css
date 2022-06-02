@@ -1,7 +1,27 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.062);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer::after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(40px);
+}
+
 .socialMedia {
   display: flex;
   justify-content: center;
-  margin: 100px auto 0 auto;
   clear: both;
 }
 
@@ -25,7 +45,6 @@
 
 .copyright p {
   color: #9e9696;
-  padding-bottom: 30px;
   text-align: center;
   font-size: 13px;
 }
