@@ -20,6 +20,7 @@ const GitHub = () => {
   async function requestRepos() {
     const res = await fetch(baseURL);
     const json = await res.json();
+    console.log(json)
     if (res.ok) {
       setPosts(json.items);
     } else {
@@ -58,7 +59,7 @@ const GitHub = () => {
             <p>
               {post.description}{' '}
               <a href={post.html_url} target="_blank" rel="noreferrer">
-                {post.full_name}
+                {post.login}
               </a>
             </p>
             <div className={github.footer}>
