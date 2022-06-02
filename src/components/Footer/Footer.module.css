@@ -1,0 +1,28 @@
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 0 auto;
+  clear: both;
+}
+
+.socialMedia svg {
+  padding: 10px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+}
+
+.terms p {
+  margin: 10px;
+}
+
+.copyright p {
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: center;
+}

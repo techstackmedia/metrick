@@ -1,0 +1,30 @@
+.questions {
+  margin-top: 100px;
+  padding: 80px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.questions h2 {
+  font-size: 2.188rem;
+}
+
+.questions p {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 50%;
+  line-height: 1.9;
+}
+
+.questions a {
+  text-decoration: none;
+  color: rgb(226, 69, 69);
+  display: flex;
+  align-items: center;
+}
+
+.contact svg {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}

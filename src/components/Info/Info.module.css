@@ -1,0 +1,130 @@
+.info {
+  width: 40%;
+  margin: auto;
+}
+
+.info p {
+  margin: 20px;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.note {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  margin: 10px;
+  color: #000;
+  height: 100px;
+  width: 90px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dateTime {
+  font-size: 2.188rem;
+  font-weight: 500;
+}
+
+.card span:nth-child(2) {
+  font-size: 0.875rem;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.formInput {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form input[type='text'] {
+  border: none;
+  border-bottom: 2px solid rgba(186, 158, 186, 0.514);
+  background-color: transparent;
+  color: #ccc;
+  margin: 5px 20px 5px 20px;
+  text-indent: 5px;
+  padding: 10px;
+  font-size: 0.688rem;
+  outline: none;
+  width: 30%;
+}
+
+.submit {
+  display: flex;
+  position: relative;
+}
+
+.submit input[type='email'] {
+  margin-top: 5px;
+  height: 45px;
+  text-indent: 30px;
+  border: 1px solid rgb(84, 77, 77);
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 100%;
+  outline: none;
+}
+
+.submit input[type='button'] {
+  outline: none;
+  position: relative;
+  height: 45px;
+  position: absolute;
+  top: 21px;
+  right: 1px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: #00f;
+  padding: 0 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  color: #fff;
+}
+
+.dateTimeLabel {
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .html {
+    font-size: 0.875rem;
+  }
+  .info {
+    width: 70%;
+  }
+}
+
+@media (max-width: 740px) {
+  .info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 649px) {
+  .info {
+    width: 90%;
+  }
+}
+
+@media (max-width: 579px) {
+  .info {
+    width: 95%;
+  }
+}

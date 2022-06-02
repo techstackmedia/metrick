@@ -1,0 +1,91 @@
+.fact {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.why,
+.grow {
+  margin-bottom: 20px;
+}
+
+.whyContainer {
+  margin-right: 40px;
+}
+
+.why,
+.whyText {
+  margin-left: 20%;
+}
+
+.whyTextContenter {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.dots span {
+  padding: 10px;
+}
+
+.why,
+.grow {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.why hr,
+.grow hr {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.why hr::before,
+.grow hr::before {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  color: #fff;
+}
+
+.why hr::before {
+  content: '01';
+}
+
+.growContainer {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(100% + -140px);
+  padding: 70px;
+  margin-left: 40px;
+}
+
+.grow hr::before {
+  content: '02';
+}
+
+.why h4,
+.grow h4 {
+  text-transform: uppercase;
+}
+
+.whyText,
+.growText {
+  line-height: 1.9;
+}
+
+.growTexSecond {
+  margin-top: 40px;
+}
+
+.dots span {
+    letter-spacing: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}

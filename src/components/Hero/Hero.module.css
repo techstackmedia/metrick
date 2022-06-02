@@ -1,0 +1,61 @@
+.hero {
+  width: 60%;
+  height: 75vh;
+  margin-top: -20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin-right: 43%;
+  position: relative;
+  left: 190px;
+}
+
+.intro hr {
+  width: 50px;
+}
+
+.intro p {
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+.saas {
+  font-size: 2.938rem;
+  width: 44%;
+  position: relative;
+  left: 160px;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tool {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.tool p {
+  line-height: 1.9;
+  position: relative;
+  right: 70px;
+  margin-right: 34px;
+}
+
+.mainText {
+  margin: 150px auto;
+  font-size: 3.125rem;
+  width: 75%;
+}

@@ -1,0 +1,97 @@
+.github {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.github img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #fff;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.github a {
+  text-decoration: none;
+  color: rgb(201, 190, 190);
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stars,
+.issues,
+.submitted {
+  width: 120px;
+  height: 30px;
+  margin: 10px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitted {
+  background-color: transparent;
+  width: 300px;
+  color: #fff;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.button button:hover {
+  background-color: #f3f3f3;
+}
+
+.button span:first-child {
+  margin-right: 10px;
+}
+
+.button span:last-child {
+  margin-left: 10px;
+}
