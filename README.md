@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Metricks React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack
 
-## Available Scripts
+- React
+- Module Cascading Style Sheet
+- Material UI design
+- Vercel
 
-In the project directory, you can run:
+## Libraries
 
-### `npm start`
+- Material UI React
+- Material UI Material Icons
+- React Router DOM
+- React Icons
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app was deployed using [https://vercel.com](Vercel). You can find the [live project demo here](https://peddle-frontend-assessment-techstackmedia.vercel.app/comingsoon)
 
-### `npm test`
+## Step
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Create a reate app using the command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npx create-react-app <projectname>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd` into the project directorey:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd <project-name>
+```
 
-### `npm run eject`
+Install some other as listed below:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```json
+@emotion/react
+@mui/material
+react-icons
+react-router-dom
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation can be done as listed below
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install <package-name>
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Development
 
-## Learn More
+Create the app based on the [Adobe design template](https://xd.adobe.com/view/b9ed8245-2809-4b31-a3c4-5c2e76ddb7e8-ecbe/?fullscreen)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment was done using [vercel](https://vercel.com)
 
-### Code Splitting
+### Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The github API used is
+  [https://api.github.com/search/repositories?q=created:%3E2021-08-13&sort=stars&order=desc](https://api.github.com/search/repositories?q=created:%3E2021-08-13&sort=stars&order=desc)
 
-### Analyzing the Bundle Size
+- The /github route design is based on the below image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+![image](https://raw.githubusercontent.com/hiddenfounders/frontend-coding-challenge/master/mockup.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+- Here's what each element represents
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://raw.githubusercontent.com/hiddenfounders/frontend-coding-challenge/master/row_explained.png)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Coding!!!
