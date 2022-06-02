@@ -21,7 +21,6 @@ const GitHub = () => {
     const res = await fetch(baseURL);
     const json = await res.json();
     if (res.ok) {
-      console.log(json.items);
       setPosts(json.items);
     } else {
       throw res;
@@ -48,10 +47,10 @@ const GitHub = () => {
         <section className={github.github}>
           <div key={post.id}>
             <img
-              src={`https://avatars.githubusercontent.com/u/${post.owner.id}?v=4`}
+              src={post.owner.avatar_url}
               width={200}
               height={200}
-              alt={`${post.full_name} avatar`}
+              alt={`${post.owner.login} avatar`}
             />
           </div>
           <div className={github.profile}>
