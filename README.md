@@ -5,6 +5,7 @@
 - React
 - Module Cascading Style Sheet
 - Material UI design
+- Google Fonts
 - Vercel
 
 ## Libraries
