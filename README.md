@@ -16,7 +16,7 @@
 
 ## Deployment
 
-The app was deployed using [https://vercel.com](Vercel). You can find the [live project demo here](https://peddle-frontend-assessment-techstackmedia.vercel.app/comingsoon)
+The app was deployed using [Vercel](https://vercel.com). You can find the [live project demo here](https://peddle-frontend-assessment-techstackmedia.vercel.app/comingsoon)
 
 ## Step
 
