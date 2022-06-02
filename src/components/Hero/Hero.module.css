@@ -8,6 +8,20 @@
   flex-direction: column;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
+  position: relative;
+  background-color: rgba(248, 238, 238, 0.1);
+}
+
+.hero::after {
+  position: absolute;
+  content: '';
+  right: 100px;
+  top: 100px;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(146, 53, 146);
+  filter: blur(20px);
+  z-index: -1;
 }
 
 .intro {

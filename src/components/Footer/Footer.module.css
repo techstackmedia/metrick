@@ -19,10 +19,13 @@
 
 .terms p {
   margin: 10px;
+  color: #9e9696;
+  font-size: 13px;
 }
 
 .copyright p {
-  color: #fff;
+  color: #9e9696;
   padding-bottom: 30px;
   text-align: center;
+  font-size: 13px;
 }

@@ -55,8 +55,8 @@
 }
 
 .growContainer {
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   height: 300px;
   display: flex;
   justify-content: center;
@@ -64,6 +64,20 @@
   width: calc(100% + -140px);
   padding: 70px;
   margin-left: 40px;
+  position: relative;
+  background-color: rgba(248, 238, 238, 0.085);
+}
+
+.growContainer::after {
+  content: '';
+  position: absolute;
+  background-color: rgb(32, 87, 169);
+  width: 200px;
+  height: 300px;
+  filter: blur(10px);
+  left: 120px;
+  top: 50px;
+  z-index: -1;
 }
 
 .grow hr::before {

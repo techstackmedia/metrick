@@ -9,10 +9,11 @@
 }
 
 .About {
-  background-image: url('./images/home.jpg');
+  /* background-image: url('./images/home.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-color: rgb(35, 2, 60);
 }
 
 .Github {
