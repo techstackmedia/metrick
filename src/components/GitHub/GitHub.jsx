@@ -20,7 +20,6 @@ const GitHub = () => {
   async function requestRepos() {
     const res = await fetch(baseURL);
     const json = await res.json();
-    console.log(json)
     if (res.ok) {
       setPosts(json.items);
     } else {
