@@ -59,7 +59,7 @@ Deployment was done using [vercel](https://vercel.com)
 
 ### Note
 
-- The github API used to **get** the most starred user repository in the last 30days is
+- The github API used to **get** the most starred user repositories in the last 30days is
   [https://api.github.com/search/repositories?q=created:%3E2021-08-13&sort=stars&order=desc](https://api.github.com/search/repositories?q=created:%3E2021-08-13&sort=stars&order=desc)
 
 - The /github route design is based on the below image
