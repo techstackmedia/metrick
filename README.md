@@ -36,7 +36,7 @@ cd <project-name>
 
 Install some other as listed below:
 
-```json
+```
 @emotion/react
 @mui/material
 react-icons
