@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import github from './GitHub.module.css';
-import { Link } from 'react-router-dom';
 import Pagination from '@mui/material/Pagination';
 
 const GitHub = () => {
