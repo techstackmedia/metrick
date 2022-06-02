@@ -1,5 +1,5 @@
 import { Outlet, Link } from 'react-router-dom';
-import logo from '../../images/logo.svg';
+import logo from "../../../src/logo.svg"
 import navbar from './Navbar.module.css';
 
 const Navbar = ({ color }) => {
