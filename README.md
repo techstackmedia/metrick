@@ -25,7 +25,7 @@ The app was deployed using [https://vercel.com](Vercel). You can find the [live 
 Create a reate app using the command:
 
 ```bash
-npx create-react-app <projectname>
+npx create-react-app <project-name>
 ```
 
 `cd` into the project directorey:
