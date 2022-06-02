@@ -34,7 +34,7 @@ npx create-react-app <project-name>
 cd <project-name>
 ```
 
-Install some other as listed below:
+Install some other packages as listed below:
 
 ```txt
 @emotion/react
