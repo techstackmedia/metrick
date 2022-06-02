@@ -43,7 +43,7 @@ react-icons
 react-router-dom
 ```
 
-Installation can be done as listed below
+Installation can be done as shown below
 
 ```bash
 npm install <package-name>
