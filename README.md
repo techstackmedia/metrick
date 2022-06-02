@@ -28,7 +28,7 @@ Create a reate app using the command:
 npx create-react-app <project-name>
 ```
 
-`cd` into the project directorey:
+`cd` into the project directory:
 
 ```bash
 cd <project-name>
