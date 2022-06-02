@@ -1,4 +1,4 @@
-import fact from './Fact.module.css';
+import fact from './Fact.module.css'; 
 
 const Fact = () => {
   const dots = '.'.repeat(13);

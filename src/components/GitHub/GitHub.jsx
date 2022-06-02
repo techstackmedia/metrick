@@ -21,7 +21,12 @@ const GitHub = () => {
   async function requestRepos() {
     const res = await fetch(baseURL);
     const json = await res.json();
-    setPosts(json.items);
+    if (res.ok) {
+      console.log(json.items);
+      setPosts(json.items);
+    } else {
+      throw res;
+    }
   }
 
   const elem = posts.map((post) => {
@@ -41,7 +46,7 @@ const GitHub = () => {
 
     return (
       <>
-        <section className={github.github} key={post.id}>
+        <section className={github.github}>
           <div key={post.id}>
             <img
               src={`https://avatars.githubusercontent.com/u/${post.owner.id}?v=4`}
@@ -54,7 +59,9 @@ const GitHub = () => {
             <h2>{post.name.toUpperCase()}</h2>
             <p>
               {post.description}{' '}
-              <Link to={post.html_url}>{post.full_name}</Link>
+              <a href={post.html_url} target="_blank" rel="noreferrer">
+                {post.full_name}
+              </a>
             </p>
             <div className={github.footer}>
               <div className={github.stars}>Stars: {post.stargazers_count}</div>
