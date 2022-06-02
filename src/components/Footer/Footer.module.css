@@ -1,14 +1,14 @@
 .footer {
   position: relative;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.062);
+  /* background-color: rgba(255, 255, 255, 0.062); */
   height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.footer::after {
+/* .footer::after {
   position: absolute;
   top: 0;
   content: '';
@@ -17,7 +17,7 @@
   border-radius: 50%;
   z-index: -1;
   filter: blur(40px);
-}
+} */
 
 .socialMedia {
   display: flex;
