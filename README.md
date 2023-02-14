@@ -75,4 +75,4 @@ Deployment was done using [vercel](https://vercel.com)
 
 ![image](https://raw.githubusercontent.com/hiddenfounders/frontend-coding-challenge/master/row_explained.png)
 
-Happy Coding!!!
+Happy Coding!!! 😊
